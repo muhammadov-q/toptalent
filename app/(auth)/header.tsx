@@ -6,7 +6,6 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { links } from "@/config";
-import { cn } from "@/lib/utils";
 
 export const Header = () => {
   const { isSignedIn } = useAuth();
