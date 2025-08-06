@@ -51,18 +51,18 @@ const Banner = ({ hide, setHide }: BannerProps) => {
           <p className="text-sm font-normal">
             📢{" "}
             <strong className="font-semibold">
-              Account creation is currently not working
+              This is the prototype of a Top Talent startup.
             </strong>{" "}
-            due to Clerk&apos;s 500-user limit. To try it out, please{" "}
+            Managed by{" "}
             <Link
-              href={`${links.sourceCode}/fork`}
+              href={`${links.sourceCode}`}
               target="_blank"
               rel="noreferrer noopener"
               className="text-green-600 transition-opacity hover:opacity-75"
             >
-              fork this repo
+              Kobiljon.com
             </Link>{" "}
-            or{" "}
+            and{" "}
             <Link
               href={`mailto:${links.email}`}
               target="_blank"
@@ -71,7 +71,7 @@ const Banner = ({ hide, setHide }: BannerProps) => {
             >
               Contact me
             </Link>{" "}
-            for access.
+            if you have any questions or suggestions.
           </p>
         </div>
 
